@@ -34,20 +34,26 @@ h6 {
 
 #secondPhotoDiv {
   margin-left: 75px;
+  margin-bottom: 75px;
 }
 
 div.container {
   width: 500px;
-  margin-right: 5px;
+  margin-left: 5px;
+  
   border: 3px solid #73AD21
 }
 
 #firstContainer {
   width: auto;
 }
+#bottomContainer{
+  width: auto;
+}
 
 .container {
-  width: 1000px;
+  margin: auto;
+  width: 2000px;
   background-image: linear-gradient(red, yellow);
 }
 
@@ -55,11 +61,15 @@ div.containerSpace1 {
   height: 80px;
 }
 
+div.containerSpace2 {
+  height: 80px;
+}
+
 div.divAboutMe {
   display: block;
-  margin-left: 80px;
-  margin-right: 80px;
-  width: 80%;
+  margin-left: 63px;
+  margin-right: 75px;
+  width: 100%;
   margin-top: 10px;
 }
 
@@ -68,4 +78,15 @@ div.divAboutMe {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+@media screen and (max-width: 500px) and (min-width: 1px) {
+  #mainPhotoDiv {
+    height: 100px;
+    width: 100px;
+  }
+  #secondPhotoDiv {
+    height: 100px;
+    width: 100px;
+  }
 }
