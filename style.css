@@ -41,7 +41,6 @@ div.divAboutMe {
 
 div.container {
   background-image: linear-gradient(whitesmoke, rgb(89, 169, 243));
-  border: 10px solid black;
 }
 
 @media screen and (max-width: 10000px) and (min-width: 601px) {
@@ -50,6 +49,7 @@ div.container {
     color: rgb(41, 63, 7);
     margin-left: 10px;
     margin-top: 350px;
+    border: 10px solid black;
   }
   h2 {
     color: rgb(41, 63, 7);
@@ -100,6 +100,7 @@ div.container {
     margin-left: 5px;
     margin: auto;
     width: 100%;
+    border: 10px solid black;
   }
   img {
     width: 300px;
@@ -124,14 +125,14 @@ div.container {
 
 @media screen and (max-width: 424px) and (min-width: 1px) {
   h1 {
-    color: blue;
+    color: rgb(33, 137, 223);
     font-size: xx-large;
     margin-left: 15px;
     margin-top: 0px;
     margin-right: 15px;
   }
   h2 {
-    color: rgb(41, 63, 7);
+    color: rgb(33, 137, 223);
     margin-left: 15px;
     font-size: xx-large;
     margin-right: 15px;
@@ -162,6 +163,7 @@ div.container {
     margin-left: 5px;
     margin: auto;
     width: 100%;
+    border: 6px solid black;
   }
   div.containerSpace1 {
     height: 8px;
