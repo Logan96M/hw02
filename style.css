@@ -1,73 +1,20 @@
-#mainPhotoDiv {
-  margin-left: 75px;
-  max-height: 200px;
-}
-
-#secondPhotoDiv {
-  margin-left: 75px;
-  margin-bottom: 75px;
-}
-
-#firstContainer {
-  width: 100%;
-}
-
-div.bottomContainer {
-  height: 10px;
-}
-
-div.containerSpace1 {
-  height: 80px;
-}
-
-div.containerSpace2 {
-  height: 80px;
-}
-
-div.divAboutMe {
-  display: block;
-  margin-left: 63px;
-  margin-right: 75px;
-  width: 100%;
-  margin-top: 10px;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-div.container {
-  background-image: linear-gradient(whitesmoke, rgb(89, 169, 243));
-}
-
 @media screen and (max-width: 10000px) and (min-width: 601px) {
   div.container {}
-  h1 {
-    color: rgb(41, 63, 7);
+  #mainPhoto {
+    height: 300px;
+    width: 90%;
     margin-left: 10px;
-    margin-top: 350px;
-    border: 10px solid black;
   }
-  h2 {
-    color: rgb(41, 63, 7);
-    margin-left: 10px;
+  #secondPhoto {
+    height: 50%;
+    width: 70%;
+    margin-left: 50px;
+  }
+  div.col-md-6 {
+    margin-left: 0px;
   }
   h3 {
-    margin-left: 10px;
-  }
-  h4 {
-    margin-left: 10px;
-  }
-  h5 {
-    font-size: x-large;
-    margin-left: 10px;
-  }
-  h6 {
-    font-size: x-large;
-    margin-left: 10px;
+    font-size: large;
   }
 }
 
@@ -124,6 +71,43 @@ div.container {
 }
 
 @media screen and (max-width: 424px) and (min-width: 1px) {
+  #mainPhotoDiv {
+    margin-left: 75px;
+    max-height: 200px;
+  }
+  #secondPhotoDiv {
+    margin-left: 75px;
+    margin-bottom: 75px;
+  }
+  #firstContainer {
+    width: 100%;
+    height:2000px;
+  }
+  div.bottomContainer {
+    height: 10px;
+  }
+  div.containerSpace1 {
+    height: 80px;
+  }
+  div.containerSpace2 {
+    height: 80px;
+  }
+  div.divAboutMe {
+    display: block;
+    margin-left: 63px;
+    margin-right: 75px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  div.container {
+    background-image: linear-gradient(whitesmoke, rgb(89, 169, 243));
+  }
   h1 {
     color: rgb(33, 137, 223);
     font-size: xx-large;
