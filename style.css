@@ -69,7 +69,7 @@ div.divAboutMe {
   }
 }
 
-@media screen and (max-width: 600px) and (min-width: 401px) {
+@media screen and (max-width: 600px) and (min-width: 425px) {
   h1 {
     color: rgb(41, 63, 7);
     margin-left: 0px;
@@ -83,7 +83,7 @@ div.divAboutMe {
     margin-left: 5px;
   }
   h4 {
-    margin-left:0px;
+    margin-left: 0px;
   }
   h5 {
     font-size: x-large;
@@ -122,21 +122,25 @@ div.divAboutMe {
   }
 }
 
-@media screen and (max-width: 400px) and (min-width: 1px) {
+@media screen and (max-width: 424px) and (min-width: 1px) {
   h1 {
     color: rgb(41, 63, 7);
+    font-size: x-large;
     margin-left: 10px;
     margin-top: 0px;
   }
   h2 {
     color: rgb(41, 63, 7);
     margin-left: 10px;
+    font-size: larger;
   }
   h3 {
     margin-left: 10px;
+    font-size: larger;
   }
   h4 {
     margin-left: 10px;
+    font-size: larger;
   }
   h5 {
     font-size: x-large;
